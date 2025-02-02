@@ -1,0 +1,17 @@
+## path to tools/scripts
+gridss_jar: /path/to/install/gridss2/src/gridss/target/gridss-0.0.1-SNAPSHOT-gridss-jar-with-dependencies.jar
+path_to_gridss: /path/to/install/gridss2/src/gridss/scripts/gridss
+scriptdir: /path/to/install/gridss2/src/gridss/scripts
+path_to_gripss: /path/to/install/gridss2/src/gridss/scripts/gripss.jar
+
+path_to_bedpe_src: scripts/simple-event-annotation.R
+java: /path/to/Java/11.0.2/bin/java
+
+#path to files
+reference_fasta: /path/to/reference/genome.fa
+reference_dict: /path/to/reference/genome.dict
+exclude_bed: /path/to/exclusion/site.bed
+
+pon_dir: /path/to/panel/of/normals/dir
+
+bs_genome: hg38

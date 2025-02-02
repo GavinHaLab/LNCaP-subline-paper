@@ -1,0 +1,44 @@
+#config.yaml for realign_bam_paired.snakefile
+#Anna Hoge
+#Template made October 18th, 2019
+#Ha Lab
+#Fred Hutchinson Cancer Research Center
+#modified by Anna-Lisa Doebley (AL) 2020-02-03
+
+
+#SELECT CORRECT REFERENCE GENOME
+#reference genome for alignment, with index files in same folder as .fa file
+reference_genome:
+    /path/to/GRCh38.fa
+    #/path/to/GRCh37.fa
+
+#SELECT CORRECT POLYMORPHIC SITES
+#used for rule build_recalibrator_model
+known_polymorphic_sites1:
+    /path/to/dbsnp_151_hg38_with_chr.All_20180418.vcf.gz
+    #/path/to/dbsnp_151_hg19_with_chr.All_20180423.vcf.gz
+known_polymorphic_sites2:
+    /path/to/Mills_and_1000G_gold_standard.indels.hg38.vcf.gz
+    #/path/to/Mills_and_1000G_gold_standard.indels.b37.vcf.gz
+
+#specify where you would like the output to go (relative or absolute path)
+results_path: results
+
+#SELECT IF DATA IS WHOLE GENOME SEQUENCES OR NOT (True or False)
+#determines if rule get_wgs_metrics is run
+is_wgs: True
+
+#SELECT CORRECT BASE RECALIBRATOR GAP OPEN PENALTY
+#GATK recommends 40 for exomes and 30 for whole genomes
+base_recalibrator_gap_open_penalty: 30.0
+
+#can adjust the number of threads used for bwa based on the data
+#suggested this matches cluster_slurm.yaml ncpus for map_to_reference rule
+bwa_threads: 4
+
+#tools used.  need to be module loaded first.  see snakemake file for loads
+bwa: /path/to/bwa
+samtools: /path/to/samtools
+java: /path/to/java
+gatk: /path/to/gatk
+picard_jar: /path/to/picard.jar

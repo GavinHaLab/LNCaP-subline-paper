@@ -1,0 +1,7 @@
+## path to tools/scripts
+manta_install: /path/to/manta/package/manta-1.6.0.centos6_x86_64
+# run location (same as where snakefile resides)
+project_dir: /path/to/project/dir
+interpreter: python2
+#path to files
+reference_fasta:  /path/to/reference/genome.fa
