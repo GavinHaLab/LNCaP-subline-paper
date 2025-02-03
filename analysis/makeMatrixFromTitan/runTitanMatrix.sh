@@ -1,0 +1,2 @@
+
+Rscript makeMatrixFromTITAN-ICHOR_segBased_hg38.R /path/to/TITAN_outputs /path/to/geneCoords/GRCh38.p12.ensembl.gene.annotations.sorted.include.AREnhancer.txt /path/to/purity_ploidy.txt common Gene 1000 path/to/outputDir/outputPrefix
