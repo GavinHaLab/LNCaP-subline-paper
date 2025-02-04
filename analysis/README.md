@@ -6,7 +6,7 @@ Scripts used for each analysis were grouped by analysis type
 
 <strong>generateComut.py</strong>
 
-Script used to read in mutation data formatted by makeComutInput.py, manipulate into proper format and combine with CN calls, then produce comut plots seen in figures 1E, 2A, S2B (more?)
+Script used to read in mutation data formatted by makeComutInput.py, manipulate into proper format and combine with CN calls, then produce comut plots seen in figures 1E, 2A, S2B
 
 <strong>getMutFreq.py</strong>
 
