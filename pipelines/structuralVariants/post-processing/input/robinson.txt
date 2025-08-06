@@ -1,0 +1,39 @@
+gene	function
+AR	general
+TP53	general
+PTEN	general
+ETS fusions	general
+FOXA1	AR-Associated
+NCOR1	AR-Associated
+NCOR2	AR-Associated
+ZBTB16	AR-Associated
+AKT1	PI3K Pathway
+PIK3CA	PI3K Pathway
+PIK3CB	PI3K Pathway
+PIK3R1	PI3K Pathway
+BRAF	RAF Fusions
+RAF1	RAF Fusions
+APC	WNT Pathway
+CTNNB1	WNT Pathway
+RNF43	WNT Pathway
+RSPO2	WNT Pathway
+ZNRF3	WNT Pathway
+ATM	DNA Repair
+BRCA1	DNA Repair
+BRCA2	DNA Repair
+CDK12	DNA Repair
+MLH1	DNA Repair
+MSH2	DNA Repair
+CCND1	Cell Cycle
+CDKN1B	Cell Cycle
+CDKN2A	Cell Cycle
+RB1	Cell Cycle
+CHD1	Chromatin Modifier
+KDM6A	Chromatin Modifier
+KMT2C	Chromatin Modifier
+KMT2D	Chromatin Modifier
+ERF	Other
+GNAS	Other
+MED12	Other
+SPOP	Other
+ZFHX3	Other
